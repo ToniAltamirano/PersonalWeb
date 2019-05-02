@@ -3,8 +3,6 @@ a.nav-link {
     font-family: Montserrat bold;
 }
 
-
-
 .mt-3, .my-3 {
     margin-top: 1rem!important;
 }
@@ -24,6 +22,7 @@ html{
 }
 
 
+/*Side Bar */
 .palito{
     height: 20px;
     width: 2px;
@@ -46,7 +45,14 @@ nav {
     
 }
 
-
+/* Scroll multiple */
+#fullpage {    
+    height: 100vh;
+   
+}
+#fullpage section { height: 100vh;
+    }
+  
 
 /* .navegacion a {
     color: black;
@@ -64,8 +70,7 @@ nav {
     position: relative;
     background-color: #1c1e26;
     z-index: -4;
-    width: 100%;
-    height: 100vh;
+    width: 100%; 
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
     -ms-transition: all ease 1s;
@@ -74,7 +79,7 @@ nav {
     padding: 250px 0;
 }
 
-.m-next-blue {
+/* .m-next-blue {
     background-color: #1c1e26;
     color: #FFF;
 }
@@ -93,7 +98,7 @@ nav {
     text-align: center;
     font-size: 40px;
     font-size: 4rem;
-}
+} */
 
 
 /* PRIMERO */
@@ -103,11 +108,11 @@ nav {
     z-index: -5;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     /* background-size: 1111.36px 625px; */
     background-color: transparent;
     /* background-position: -162.682px 0px; */
-    background-image: url(./../media/img/images.jpg );
+    background-image: url(./../media/img/mont1.jpeg );
     background-attachment: fixed;
     /* ./../media/img/black.jpg */
 }
@@ -126,8 +131,7 @@ nav {
     position: relative;
     background-color: #8e92a5;
     z-index: -5;
-    width: 100%;
-    height: 100vh;
+    width: 100%;  
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
     -ms-transition: all ease 1s;
@@ -142,7 +146,7 @@ nav {
     background-color: #5a6499;
     z-index: -5;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
     -ms-transition: all ease 1s;
@@ -178,7 +182,7 @@ nav {
     position: relative;
     z-index: -5;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
     -ms-transition: all ease 1s;
