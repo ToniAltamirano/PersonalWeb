@@ -16,6 +16,50 @@ a.nav-link {
     background-color: none !important;
 }
 
+.text1{   
+    color: white;
+    background: transparent;
+    letter-spacing: 10px;
+    animation: text 3s 1;
+    position: relative;
+}
+
+.text2{
+    letter-spacing: 5px;
+    color: #6ab04c; 
+    animation: text1 2.7s 1;   
+}
+@keyframes text {
+    0%{
+        color: white;
+        margin-bottom: -40px;
+    }
+
+    30%{
+        letter-spacing: 20px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+
+@keyframes text1 {
+    0%{
+        color: white;
+        opacity: 0;
+    }
+
+    30%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 0;;
+    }
+}
+
+
 html{
     scroll-behavior: smooth;
     /* transition: opactiy 0s; */

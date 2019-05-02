@@ -17,7 +17,7 @@
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
-  
+
 $(document).ready(function () {
 
     // $('#fullpage').fullpage();
@@ -39,9 +39,9 @@ $(document).ready(function () {
             var navElem = $($navs[i]);
             var nextElem = $($navs[i + 1]);
             if (nextElem.length !== 0 ? ($(navElem.attr("href")).offset().top 
-            <= (document.documentElement.scrollTop + 200) && 
-            $(nextElem.attr("href")).offset().top >= (document.documentElement.scrollTop + 200)) 
-            : $(navElem.attr("href")).offset().top <= (document.documentElement.scrollTop + 200)){
+            <= (document.documentElement.scrollTop + 50) && 
+            $(nextElem.attr("href")).offset().top >= (document.documentElement.scrollTop + 50)) 
+            : $(navElem.attr("href")).offset().top <= (document.documentElement.scrollTop + 50)){
                 navElem.find('.palito').addClass('palitoSelected');
             } else{
                 navElem.find('.palito').removeClass('palitoSelected');
