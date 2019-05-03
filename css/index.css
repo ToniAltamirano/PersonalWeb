@@ -304,16 +304,39 @@ section .screen:nth-child(3){
     align-content: center;
     text-align: center;
     top: 0%;
-    padding: 20px 0;
+    padding-top: 50px;
     margin: 0px;
+
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.125;
+    word-break: break-word;
+    font-family: "eurostile",sans-serif;
 }
 
+#subtitleWork{
+    align-content: center;
+    text-align: center;
+    top: 0%;
+    padding: 20px 0;
+    margin: 0px;
+
+    font-family: "europa",sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #4a4a4a;
+    font-size: 1.25rem;
+
+}
 
 .container{
     width: 1200px;
     margin: 20px auto;
-    columns: 4;
-    column-gap: 40px;  
+    columns: 3;
+    column-gap: 40px; 
+    padding-bottom: 20px;
+    margin-bottom: 0px; 
 }
 
 
@@ -338,20 +361,62 @@ section .screen:nth-child(3){
 .container .box p{
     margin: 0;
     padding: 0 0 10px;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+/*Efecto shadow*/
+.projects .project-grid figure figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 3rem;
+    color: #fff;
+    z-index: 1;
+}
+
+.projects .project-grid figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: .45s ease-in-out;
+    transition: .45s ease-in-out;
+}
+
+@media (max-width: 1200px){
+    .container{
+        columns: 3;
+        width: calc(100% - 40px);
+        box-sizing: border-box;
+        padding: 20px 20px 20px 0;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        columns: 2;     
+    }
+}
+
+@media (max-width: 480px){
+    .container{
+        columns: 1;     
+    }
 }
 
 img{
-    height: 150px;
-    width: 200px;
+    /* height: 150px; */
+    /* width: 200px; */
 }
 #aboutdev{
     background-color: rgb(175, 124, 124);
     position: relative;
     padding: 0;  
     width: 100%;
-    height: 100vh;
-    height: 100vh;
+    /* height: 100vh; */
+    min-height: 100vh;
     /* min-height: 100vh; */
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
@@ -359,6 +424,24 @@ img{
     -transition: all ease 1s;
     transition: all ease 1s;
 }
+
+/* habilities*/
+#habilities{
+    background-color: rgb(134, 178, 204);
+    position: relative;
+    z-index: -5;
+    width: 100%;
+    height: 100vh;
+    -webkit-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    -ms-transition: all ease 1s;
+    -transition: all ease 1s;
+    transition: all ease 1s;
+    padding: 250px 0;
+
+}
+
+
 
 /* CONTACTO */
 
