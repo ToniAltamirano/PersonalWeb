@@ -29,6 +29,7 @@ a.nav-link {
     color: #6ab04c; 
     animation: text1 2.7s 1;   
 }
+
 @keyframes text {
     0%{
         color: white;
@@ -36,7 +37,7 @@ a.nav-link {
     }
 
     30%{
-        letter-spacing: 20px;
+        letter-spacing: 15px;
         margin-bottom: -40px;
     }
     85%{
@@ -65,7 +66,6 @@ html{
     /* transition: opactiy 0s; */
 }
 
-
 /*Side Bar */
 .palito{
     height: 20px;
@@ -90,13 +90,13 @@ nav {
 }
 
 /* Scroll multiple */
-#fullpage {    
+/* #fullpage {    
     height: 100vh;
-   
+    overflow: hidden;   
 }
 #fullpage section { height: 100vh;
     }
-  
+   */
 
 /* .navegacion a {
     color: black;
@@ -152,7 +152,7 @@ nav {
     z-index: -5;
     background-repeat: no-repeat;
     width: 100%;
-    /* height: 100vh; */
+    height: 100vh;
     /* background-size: 1111.36px 625px; */
     background-color: transparent;
     /* background-position: -162.682px 0px; */
@@ -175,6 +175,7 @@ nav {
     position: relative;
     background-color: #8e92a5;
     z-index: -5;
+    height: 100vh;
     width: 100%;  
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
@@ -184,22 +185,101 @@ nav {
     padding: 250px 0;
 }
 
-/* */
+/* Project section */
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 #myProjects {
     position: relative;
-    background-color: #5a6499;
-    z-index: -5;
+    background-color: #000000;
     width: 100%;
-    /* height: 100vh; */
+    height: 100vh;
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
     -ms-transition: all ease 1s;
     -transition: all ease 1s;
     transition: all ease 1s;
-    padding: 250px 0;
+    /* padding: 250px 0; */
+
+    position: relative;
+    display: flex;
+    height: 100vh;
+    /* padding: 50px; */
 }
 
-/* Dev Section */
+/* #myProjects .screen:hover{
+    flex-grow: 4;
+    opacity: 1;
+}
+#myProjects:hover .screen{
+    opacity: 0.1;
+}
+section:hover .screen{
+    opacity: 1;
+} */
+
+section .screen{
+    position: relative;
+    flex-grow: 2;
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: 1s;
+}
+
+section .screen .content{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    transform: translateX(100%);
+    transition: 0.5s;
+    text-align: justify
+}
+
+section .screen:hover .content{
+   transform: translateX(0);
+   transition-delay: 500ms;
+
+}
+
+section:hover .screen{
+    opacity: 0.1;
+}
+
+section .screen:hover{
+    flex-grow: 5;
+    opacity: 1;
+}
+
+
+
+section .screen:nth-child(1){ 
+    /* background-color: #6ab04c; */
+    background-image: url('./../media/img/cocina.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section .screen:nth-child(2){
+    /* background-color: #0d8b85; */
+    background-image: url('./../media/img/cocina2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section .screen:nth-child(3){
+    background-image: url('./../media/img/cocina3.jpg');
+    /* background-color: #b0954c; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .m-image-centered {
     text-align: center;
@@ -221,19 +301,23 @@ nav {
     padding-top: 50px;
 }
 
+#titleWork{
+    align-content: center;
+    text-align: center;
+    top: 0%;
+    padding: 50px 0;
+}
 #aboutdev{
     background-color: rgb(175, 124, 124);
     position: relative;
-    z-index: -5;
+    padding: 0;  
     width: 100%;
-    /* height: 100vh; */
+    height: 100vh;
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
     -ms-transition: all ease 1s;
     -transition: all ease 1s;
     transition: all ease 1s;
-    padding: 250px 0;
-
 }
 
 /* CONTACTO */
