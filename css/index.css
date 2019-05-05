@@ -597,12 +597,12 @@ ul li{
 }
 
 ul li a{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background: rgb(0, 0, 0);
     text-align: center;
-    line-height: 60px;
-    font-size: 30px;
+    line-height: 40px;
+    font-size: 20px;
     margin: 0 10px;
     display: block;
     border-radius: 50%;
