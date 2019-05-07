@@ -1,0 +1,109 @@
+/* footer  */
+
+.footer{
+    background-color: #26262a;
+       position: relative;
+    /* z-index: -5; */
+    width: 100%;
+    min-height: 30vh;
+    -webkit-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    -ms-transition: all ease 1s;
+    -transition: all ease 1s;
+    transition: all ease 1s;
+    /* padding: 250px 0; */
+}
+.titleFooter{
+    margin-top: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    padding-inline-start: 0px; 
+}
+
+ul li{
+    list-style: none;    
+}
+
+ul li a{
+    width: 40px;
+    height: 40px;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+
+ul li a .fab{
+    position: relative;
+    color: #fff;
+    transition: .5s;
+}
+
+ul li a:hover .fab{
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+ul li a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+ul li a:hover:before{
+    top: 0;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.footRss{
+    padding-top: 100px;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover {
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+}
+
+.titleFooter a:hover {
+    color: rgba(255,255,255,.5);
+}
+
+.titleFooter li a{
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+#fot{  
+    padding-bottom: 1px;
+}
+
+form{
+    align-content: center;
+}
