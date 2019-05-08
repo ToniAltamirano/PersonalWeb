@@ -360,20 +360,6 @@ section .screen:nth-child(3){
     font-family: "eurostile",sans-serif;
 }
 
-#subtitleWork{
-    align-content: center;
-    text-align: center;
-    top: 0%;
-    padding: 20px 0;
-    margin: 0px;
-
-    font-family: "europa",sans-serif;
-    font-weight: 300;
-    line-height: 1.5;
-    color: #4a4a4a;
-    font-size: 1.25rem;
-
-}
 
 /* .container{
     position: relative;
@@ -519,21 +505,6 @@ img{
   
 }
 
-/* habilities*/
-#habilities{
-    background-color: rgb(134, 178, 204);
-    position: relative;
-    z-index: -5;
-    width: 100%;
-    min-height: 100vh;
-    -webkit-transition: all ease 1s;
-    -moz-transition: all ease 1s;
-    -ms-transition: all ease 1s;
-    -transition: all ease 1s;
-    transition: all ease 1s;
-    /* padding: 250px 0; */
-
-}
 
 
 /* CONTACTO */

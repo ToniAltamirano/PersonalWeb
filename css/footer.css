@@ -21,6 +21,24 @@ li{
     list-style: none;
 }
 
+.colContactBg{
+    width: 100%;
+    background-image: url('./../media/img/teamwork.jpg');
+    background-size: cover;
+}
+
+/* Cuando sea movil */
+/* background-size: contain;
+    background-repeat: no-repeat; */
+    @media (max-width: 480px){
+        .colContactBg{
+            width: 100%;
+            background-image: url('./../media/img/teamwork.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;        
+        }      
+    }
+
 ul{
     display: flex;
     position: absolute;
