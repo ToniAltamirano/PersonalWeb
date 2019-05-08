@@ -1,0 +1,39 @@
+/*  contacto */
+
+.contactoDiv .row .colContact{  
+    width: 100%;
+    min-height: 50vh;
+}
+
+#email{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#email >a{
+    color: black;
+}
+
+.colContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardContacto1{
+    box-shadow: none !important;
+    margin: 1px;
+    background: #ffffff;
+    border: none !important;
+}
+
+.card-title{
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.card-text{
+    line-height: 1.5em;
+    font-size: 20px;
+}

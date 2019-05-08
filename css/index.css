@@ -539,7 +539,7 @@ img{
 /* CONTACTO */
 
 #contacto{
-    background-color: rgb(184, 152, 152);
+    background-color: #ffffff;
     position: relative;
     /* z-index: -5; */
     width: 100%;
@@ -655,9 +655,9 @@ label{
 
 .container .row .col-xl-4 .content{
     position: absolute;
-    width: 100%;
+    left: 50%;  
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
     z-index: 2;
     padding: 20px;
     box-sizing: border-box;   
