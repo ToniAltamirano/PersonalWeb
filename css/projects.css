@@ -1,0 +1,123 @@
+
+#projects{
+    position: relative;
+    background-color: #e4e4e4;
+    /* z-index: -5; */
+    min-height: 100vh;
+    width: 100%;  
+    -webkit-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    -ms-transition: all ease 1s;
+    -transition: all ease 1s;
+    transition: all ease 1s;
+    padding-bottom: 50px;
+    /* padding: 250px 0; */
+  
+}
+
+/* grid */
+.card-img-top{
+    background: #000000;
+}
+
+.container .row .col-xl-4:before{
+    content: '';
+    position: absolute;
+    margin: 15px;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    box-sizing: border-box;
+    transition: 0.5s; 
+    transform: scaleX(0);
+    opacity: 0;
+    z-index: 1;
+
+}
+
+.container .row .col-xl-4:hover:before{
+    transform: scaleX(1);
+    opacity: 1;
+}
+
+.container .row .col-xl-4:after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 15px;
+    right: 10px;
+    bottom: 10px;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transform: scaleY(0);
+    opacity: 0;
+    z-index: 1;
+}
+
+.container .row .col-xl-4:hover:after{
+    transform: scaleY(1);
+    opacity: 1;
+
+}
+.container .row .col-xl-4 .card{
+   position: relative;
+ }
+
+.container .row .col-xl-4 .card img{
+   width: 100%;
+   transition: 0.5s;
+}
+
+.container .row .col-xl-4:hover .card img{
+  opacity: .8;
+  transform: scale(1.1);
+ }
+
+.container .row .col-xl-4 .card{
+    overflow: hidden;
+}
+
+.container .row .col-xl-4 .content{
+    position: absolute;
+    left: 50%;  
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 20px;
+    box-sizing: border-box;   
+    text-align: center; 
+}
+
+.container .row .col-xl-4 .content h2{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    transition: 0.5s;  
+    transform: translateY(-50px);
+    opacity: 0;
+    visibility: hidden;
+}
+.container .row .col-xl-4 .content p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    transition: 0.5s; 
+    transform: translateY(50px);
+    opacity: 0;
+    visibility: hidden; 
+}
+
+.container .row .col-xl-4:hover .content h2,
+.container .row .col-xl-4:hover .content p
+{
+   opacity: 1;
+   visibility: visible;
+   transform: translateY(0px);
+   transition-delay: 0.1s;
+}

@@ -1,4 +1,15 @@
 /*  contacto */
+#contacto{
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    -webkit-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    -ms-transition: all ease 1s;
+    -transition: all ease 1s;
+    transition: all ease 1s;
+}
 
 .contactoDiv .row .colContact{  
     width: 100%;
@@ -38,3 +49,21 @@
     line-height: 1.5em;
     font-size: 20px;
 }
+
+p {
+    margin: auto;
+    margin-top: 30px;
+    /* text-align: center; */
+}
+
+.logo{
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    height: 50px;
+}
+
+label{
+    font-weight: bold;
+}
+

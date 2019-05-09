@@ -1,0 +1,83 @@
+/*Header titles*/
+
+.text1{   
+    color: white;
+    background: transparent;
+    letter-spacing: 10px;
+    animation: text 3s 1;
+    position: relative;
+}
+
+.text2{
+    letter-spacing: 5px;
+    color: #ffffff; 
+    animation: text1 2.7s 1;   
+}
+
+/* Animation text*/
+@keyframes text {
+    0%{
+        color: white;
+        margin-bottom: -40px;
+    }
+
+    30%{
+        letter-spacing: 15px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+
+@keyframes text1 {
+    0%{
+        color: white;
+        opacity: 0;
+    }
+
+    30%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 0;;
+    }
+}
+
+/* LOGO AND LANG */
+#tituloPers{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+   
+#idioma{
+    position: absolute;
+    top: 5%;
+    right: 5%;  
+}
+
+/* FULL SECTION */
+#header{
+    /* background-color: #1c1e26; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: -5; */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    /* background-size: 1111.36px 625px; */
+    background-color: transparent;
+    /* background-position: -162.682px 0px; */
+    background-image: url(./../media/img/mont1.jpeg );
+    background-attachment: fixed;
+    /* ./../media/img/black.jpg */
+}
+
+.hidden{
+    color: white;
+    text-align: center;
+}

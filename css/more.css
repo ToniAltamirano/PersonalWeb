@@ -1,0 +1,83 @@
+/* GENERAL */
+#more {
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+    -webkit-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    -ms-transition: all ease 1s;
+    -transition: all ease 1s;
+    transition: all ease 1s;
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+
+/* EFECT 3 DIVS */
+section .screen{
+    position: relative;
+    flex-grow: 2;
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: 1s;
+}
+
+section .screen .content{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    transform: translateX(100%);
+    transition: 0.5s;
+    text-align: justify
+}
+
+section .screen:hover .content{
+   transform: translateX(0);
+   transition-delay: 300ms;
+
+}
+
+section:hover .screen{
+    opacity: 0.1;
+}
+
+section .screen:hover{
+    flex-grow: 5;
+    opacity: 1;
+}
+
+section .screen:nth-child(1){ 
+    /* background-color: #6ab04c; */
+    background-image: url('./../media/img/cocina.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section .screen:nth-child(2){
+    /* background-color: #0d8b85; */
+    background-image: url('./../media/img/cocina2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section .screen:nth-child(3){
+    background-image: url('./../media/img/cocina3.jpg');
+    /* background-color: #b0954c; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.m-image-centered {
+    text-align: center;
+}
+
+.wrap {
+    width: 88%;
+    margin: 0 auto;
+}

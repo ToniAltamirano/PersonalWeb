@@ -1,0 +1,59 @@
+
+#informacion {
+    position: relative;
+    background-color: #ffffff;
+    min-height: 100vh;
+    width: 100%;  
+    -webkit-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    -ms-transition: all ease 1s;
+    -transition: all ease 1s;
+    transition: all ease 1s;
+    margin-bottom: 100px;
+}
+
+#fotoAvatar{
+    float: right;
+}
+#descripcionAvatar{
+    margin-right: 60px;
+    margin-top: 60px;
+    justify-content: center;
+    text-align: justify;
+}
+
+/* MY STUDIES */
+
+#img1{
+    float: right;
+}
+.container2 h3 h4 h5 p{
+    float: left;   
+}
+
+.container2 h3{
+    color: #37c;
+}
+
+.container2 h4{
+    color: #5E9516;
+}
+
+.container2 h5{
+    color: #50555C;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1; 
+}
+
+.container2 p{
+    color: #50555C;
+}
+
+.container2{
+    margin-top: 10px;
+}
+
+#studies{
+    margin-top: 20px;
+}
